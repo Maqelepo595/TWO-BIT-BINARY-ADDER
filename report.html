@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Bit Binary Adder Circuit</title>
+    <style>
+        h1 {text-align: center;}
+    </style>
+</head>
+<body style="background-color:rgb(216, 208, 224);">
+    <h1>Two-Bit Binary Adder Circuit</h1>
+
+    <h2>What the Project Does?</h2>
+    <p>
+        It’s a digital circuit project that adds two-bit binary numbers and produces a 3-bit output. 
+        This circuit comprises two half adders and XOR, AND, OR gates to perform the indicated purpose of 
+        giving out sums together with the final carry-out bit. For half_adder A, the inputs are A0 and B0, 
+        while for half_adder B, the inputs are A1 and B1. The outputs are sum0, sum1, and final_carry.
+    </p>
+
+    <h2>Use of Components that Build up the Project</h2>
+    <p>
+        The project is built up of two half adders: half_adder A and half_adder B, XOR, AND, and OR gates.
+        Half_adder A takes the least significant bits of the numbers being added, while half_adder B takes 
+        the most significant bits.
+    </p>
+    <p>
+        The OR gate combines the results from the AND gate in half_adder A and the results from the AND gate 
+        in half_adder B to produce the final carry-out bit.
+    </p>
+    <p>
+        The XOR gate, which is broken into AND gates and inverters, takes the least significant bits to produce sum0.
+        The XOR under half_adder A takes in the sum and the output from andgate1 to produce sum1.
+    </p>
+
+    <h2>Guide Lines on How to Get Started with the Project</h2>
+    <p>
+        For the user to use the project, they are required to input the two binary numbers they wish to add, starting with 
+        the least significant bit for both numbers. The least significant bit for the first number will be assigned to A0, 
+        and for the second number, it will be assigned to B0. Then, input the second bits on A1 and B1, respectively.
+    </p>
+    <h3>Testing of the circuit</h3>
+    <p>
+    We will be testing using five combinations of binary numbers which will be adding 2and2 ,3and3,0and0,1and1,2and3.
+    The first number will take place values  A0 and A1, A0 being the first least significant bit and A1 will follow being
+    the most significant bit and the number being added with the first one will follow the procedure as B0 being the least significant
+    and B1 being the most significant bit.  
+    </p>
+    <h4>Screen shots of the testing process</h4>
+    <p>
+    <img src="https://github.com/Maqelepo595/TWO-BIT-BINARY-ADDER/blob/main/Adding%20three%26three.png?raw=true" alt="Description of the image" style="width:400px;height:auto;">
+    <img src="https://github.com/Maqelepo595/TWO-BIT-BINARY-ADDER/blob/main/Adding%20Two%26Two.png?raw=true" alt="Description of the image" style="width:400px;height:auto;">
+    <img src="https://github.com/Maqelepo595/TWO-BIT-BINARY-ADDER/blob/main/Adding%20One%26One.png?raw=true" alt="Description of the image" style="width:400px;height:auto;">
+    <img src="https://github.com/Maqelepo595/TWO-BIT-BINARY-ADDER/blob/main/Adding%20Zero%26Zero.png?raw=true" alt="Description of the image" style="width:400px;height:auto;">
+    </p>
+    <h5>Link to youtube video</h5>
+    <p>
+        <a href="https://www.youtube.com/watch?v=heOpWWDhH1M" target="_blank">Watch this video on YouTube</a>
+    </p>
+    <h2>Challenges</h2>
+    <p>
+        We met challenges whereby we had to use three half adders to achieve the task, whereby only two half adders could not work. 
+        Meanwhile, we discovered a way to deal with that difficulty in order to achieve our goal with inverters.
+    </p>
+    <p>
+        By: <br>
+            202201176 B.I.M. Mohlapisi <br>
+            201600428 T.J. Monokoa <br>
+            202201955 L.J. Leiee <br>
+            202102790 R.E.P. Maqelepo <br>
+            202201000 K.R. Rangoanana <br>
+            200900706 H.G. Moleleki <br>
+            202202264 T. Mapetja  <br>
+    </p>
+</body>
+</html>
